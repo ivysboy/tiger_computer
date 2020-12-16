@@ -20,4 +20,5 @@ from view import views
 urlpatterns = [
     path('wuyuan/', views.hi_wuyuan),
     path('tiger/', views.hi_tiger),
+    path('upload/', views.upload),
 ]
